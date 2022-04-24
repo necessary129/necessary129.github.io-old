@@ -4,16 +4,18 @@
 <script src="https://cdn.jsdelivr.net/npm/texme@1.2.0"></script>
 <textarea>
 
-# Euler's Identity
+Since $ \{\vec{x}+\vec{y}, \vec{y}+\vec{z}, \vec{x}+\vec{z}\} $ is linearly indepedendant, 
 
-In mathematics, **Euler's identity** is the equality
-$$ e^{i \pi} + 1 = 0. $$
+\begin{equation} a(\vec{x}+\vec{y}) + b(\vec{y}+\vec{z}) + c(\vec{x}+\vec{z}) = 0
+ \implies a=b=c= 0
+\end{equation}
 
-## Explanation
+Rearranging Eqn 1 we get
 
-Euler's identity is a special case of Euler's formula from complex
-analysis, which states that for any real number $ x $,
-$$ e^{ix} = \cos x + i \sin x. $$
+\begin{equation} 
+\vec{x}(a+c) + \vec{y}(a+b) + \vec{z}(b+c) = 0
+\end{equation}
 
+Since Eqn 1 implied $ a = b = c = 0 $ was the only solution for Eqn 1, it should also be the only solution of Eqn 2. Therefore, $ \{\vec{x}, \vec{y}, \vec{z}\} $ is linearly independant.
 </textarea>
 </html>
